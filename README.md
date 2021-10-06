@@ -21,7 +21,7 @@ To run the game: _brain-calc_
 [![asciicast](https://asciinema.org/a/GTr1fjJ2lhUUt4x94KRlQu8SY.svg)](https://asciinema.org/a/GTr1fjJ2lhUUt4x94KRlQu8SY)
 
 <div id="brain-gcd">
-  <h2>Calculator. Arithmetic expressions to be evaluated.</h2>
+  <h2>Determination of the greatest common divisor.</h2>
 </div>
 
 To run the game: _brain-gcd_
