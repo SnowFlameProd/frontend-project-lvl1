@@ -12,7 +12,7 @@ const generateQuestionAnswer = () => {
 };
 
 const evenGame = () => {
-  newGame(task, generateQuestionAnswer)
+  newGame(task, generateQuestionAnswer);
 };
 
 export default evenGame;

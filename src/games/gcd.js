@@ -18,11 +18,9 @@ const generateQuestionAnswer = () => {
   }
 
   for (let i = 1; i <= maxDivisor; i += 1) {
-
     if (firstNumber % i === 0 && secondNumber % i === 0) {
       correctAnswer = i.toString();
     }
-
   }
 
   return [question, correctAnswer];

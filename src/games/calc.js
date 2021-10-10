@@ -7,7 +7,6 @@ const operators = ['+', '-', '*'];
 
 const getCorrectAnswer = (firstNumber, secondNumber, operator) => {
   let correctAnswer;
-  
   switch (operator) {
     case '+':
       correctAnswer = firstNumber + secondNumber;
@@ -23,7 +22,7 @@ const getCorrectAnswer = (firstNumber, secondNumber, operator) => {
 
     default:
       correctAnswer = null;
-  };
+  }
 
   return correctAnswer;
 };
