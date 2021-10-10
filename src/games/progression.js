@@ -13,7 +13,7 @@ const generateQuestionAnswer = () => {
     progression[i] = progression[i - 1] + progressionStep;
   };
 
-  const randomProgressionElemId = getRandomNumber(0, progressionLength);
+  const randomProgressionElemId = getRandomNumber(0, progressionLength - 1);
   
   const correctAnswer = progression[randomProgressionElemId].toString();
   progression[randomProgressionElemId] = '..';
