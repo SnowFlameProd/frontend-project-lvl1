@@ -31,7 +31,7 @@ const getCorrectAnswer = (firstNumber, secondNumber, operator) => {
 const generateQuestionAnswer = () => {
   const randomFirstNumber = getRandomNumber();
   const randomSecondNumber = getRandomNumber();
-  const operator = operators[getRandomNumber(operators.length - 1)];
+  const operator = operators[getRandomNumber(0, operators.length - 1)];
 
   const question = `${randomFirstNumber} ${operator} ${randomSecondNumber}`;
   const correctAnswer = getCorrectAnswer(randomFirstNumber, randomSecondNumber, operator).toString();
