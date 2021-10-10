@@ -30,10 +30,19 @@ To run the game: _brain-gcd_
 [![asciicast](https://asciinema.org/a/ta0ak3z9NnP3aoUQOP6xnQqo2.svg)](https://asciinema.org/a/ta0ak3z9NnP3aoUQOP6xnQqo2)
 
 
-<div id="progression-gcd">
+<div id="brain-progression">
   <h2>Progression. Finds missing numbers in a sequence of numbers.</h2>
 </div>
 
-To run the game: _progression-gcd_
+To run the game: _brain-progression_
 
 [![asciicast](https://asciinema.org/a/beGJp8usRKZAabq7f6UuwP2F8.svg)](https://asciinema.org/a/beGJp8usRKZAabq7f6UuwP2F8)
+
+
+<div id="brain-prime">
+  <h2>Progression. Finds missing numbers in a sequence of numbers.</h2>
+</div>
+
+To run the game: _brain-prime_
+
+[![asciicast](https://asciinema.org/a/4YnNUTZlsj4sFYJvcVm7TxsBP.svg)](https://asciinema.org/a/4YnNUTZlsj4sFYJvcVm7TxsBP)
