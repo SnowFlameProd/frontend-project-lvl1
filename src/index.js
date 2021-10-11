@@ -13,7 +13,6 @@ const newGame = (task, generateQuestionAnswer) => {
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, correctAnswer] = generateQuestionAnswer();
     console.log(`Question: ${question}`);
-    
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer === correctAnswer) {

@@ -11,15 +11,12 @@ const getCorrectAnswer = (firstNumber, secondNumber, operator) => {
     case '+':
       correctAnswer = firstNumber + secondNumber;
       break;
-    
     case '-':
       correctAnswer = firstNumber - secondNumber;
       break;
-
     case '*':
       correctAnswer = firstNumber * secondNumber;
       break;
-
     default:
       correctAnswer = null;
   }
@@ -33,7 +30,8 @@ const generateQuestionAnswer = () => {
   const operator = operators[getRandomNumber(0, operators.length - 1)];
 
   const question = `${randomFirstNumber} ${operator} ${randomSecondNumber}`;
-  const correctAnswer = getCorrectAnswer(randomFirstNumber, randomSecondNumber, operator).toString();
+  const correctAnswer = getCorrectAnswer(randomFirstNumber, 
+    randomSecondNumber, operator).toString();
 
   return [question, correctAnswer];
 };

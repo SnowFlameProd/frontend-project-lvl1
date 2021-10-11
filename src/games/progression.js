@@ -14,11 +14,10 @@ const generateQuestionAnswer = () => {
   }
 
   const randomProgressionElemId = getRandomNumber(0, progressionLength - 1);
-  
   const correctAnswer = progression[randomProgressionElemId].toString();
   progression[randomProgressionElemId] = '..';
 
-  const question = progression.join(' ');
+  const question = progression.join(' ');z
 
   return [question, correctAnswer];
 };
