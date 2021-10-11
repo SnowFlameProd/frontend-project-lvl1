@@ -17,7 +17,7 @@ const generateQuestionAnswer = () => {
   const correctAnswer = progression[randomProgressionElemId].toString();
   progression[randomProgressionElemId] = '..';
 
-  const question = progression.join(' ');z
+  const question = progression.join(' ');
 
   return [question, correctAnswer];
 };

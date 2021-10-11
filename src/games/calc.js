@@ -30,10 +30,9 @@ const generateQuestionAnswer = () => {
   const operator = operators[getRandomNumber(0, operators.length - 1)];
 
   const question = `${randomFirstNumber} ${operator} ${randomSecondNumber}`;
-  const correctAnswer = getCorrectAnswer(randomFirstNumber, 
-    randomSecondNumber, operator).toString();
+  const correctAnswer = getCorrectAnswer(randomFirstNumber, randomSecondNumber, operator);
 
-  return [question, correctAnswer];
+  return [question, correctAnswer.toString()];
 };
 
 const calcGame = () => {
